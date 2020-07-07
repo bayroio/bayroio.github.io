@@ -173,7 +173,7 @@ const Header = (props) => {
           </NameLink>
         )}
         {!props.article && <Name article={props.article}>bayro</Name>}
-        {!props.article && <Role>The starting point for digital asset.</Role>}
+        {!props.article && <Role>The starting point for digital assets.</Role>}
       </LogoWrapper>
       <div>
         <SocialLinks article={props.article}>

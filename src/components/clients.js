@@ -28,7 +28,7 @@ const Clients = () => {
           />
           <ProjectNoLogo
             title="iAgrinet"
-            abstract="Our Solutions: Payments B2B, Asset Management, Brokerage and Tokenization. Additionally, with our services of Strategy Blockchain Advisory, we are helping to create tracebalitiy solution of agri-pruducts, Self-Sovereign Identity (uPort) and an Ethereum Consortium Network (Hyperledger Besu)."
+            abstract="Our Solutions: Payments B2B, Assets Management, Brokerage and Tokenization. Additionally, with our services of Strategy Blockchain Advisory, we are helping to create tracebalitiy solution of agri-pruducts, Self-Sovereign Identity (uPort) and an Ethereum Consortium Network (Hyperledger Besu)."
             link={iAgrinetLink}
           />
         </Fragment>

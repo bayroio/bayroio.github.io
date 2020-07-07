@@ -61,7 +61,7 @@ const Writing = () => {
             link={LifeTimeLink}
           />
           <ProjectNoLogo
-            title="Asset Management"
+            title="Assets Management"
             abstract="Portfolio manager, liquidity provider, and price sensor."
             link={LifeTimeLink}
           />

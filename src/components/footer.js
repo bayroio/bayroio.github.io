@@ -33,7 +33,7 @@ const Footer = () => {
         <b>bayro</b>
       </BayroFooterText>
       <SloganFooterText>
-        The starting point for digital asset.
+        The starting point for digital assets.
       </SloganFooterText>
       <br></br>
       <FooterText>
