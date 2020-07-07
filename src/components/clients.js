@@ -5,9 +5,10 @@ import TwoColumns from 'components/twoColumns'
 import SectionHeading from 'components/sectionHeading'
 import Project from 'components/project'
 import ProjectNoLogo from 'components/projectnologo'
+import ClientWithLogo from 'components/clientwithlogo'
 
-//import CustomSoftLogo from 'img/customsoftlogo'
-//import iAgrinetLogo from 'img/iAgrinet.png'
+import CustomSoftLogo from 'img/CustomSoft.png'
+import iAgrinetLogo from 'img/iAgrinet.png'
 //import LifeTimeLogo from 'img/lifetimelogo'
 //import BamLogo from 'img/bamlogo'
 
@@ -21,12 +22,14 @@ const Clients = () => {
       leftColumn={<SectionHeading>Clients</SectionHeading>}
       rightColumn={
         <Fragment>
-          <ProjectNoLogo
+          <ClientWithLogo
+            logo={CustomSoftLogo}
             title="CustomSoft"
             abstract="Our services: Strategy Blockchain Advisory and Financial + Cryptocurrency Advisory."
             link={CustomSoftLink}
           />
-          <ProjectNoLogo
+          <ClientWithLogo
+            logo={iAgrinetLogo}
             title="iAgrinet"
             abstract="Our Solutions: Payments B2B, Assets Management, Brokerage and Tokenization. Additionally, with our services of Strategy Blockchain Advisory, we are helping to create tracebalitiy solution of agri-pruducts, Self-Sovereign Identity (uPort) and an Ethereum Consortium Network (Hyperledger Besu)."
             link={iAgrinetLink}

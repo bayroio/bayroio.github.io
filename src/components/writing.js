@@ -8,6 +8,8 @@ import TwoColumns from 'components/twoColumns'
 import SectionHeading from 'components/sectionHeading'
 import ProjectNoLogo from 'components/projectnologo'
 
+import AhojSolutionsImage from '../img/Ahoj_Solutions.png'
+
 import Link from 'gatsby-link'
 const LifeTimeLink = <Link to="/lifetime"></Link>
 
@@ -80,6 +82,11 @@ const Writing = () => {
             abstract="Store and manage digital assets with robust key management."
             link={LifeTimeLink}
           />
+          <br></br><br></br>
+          <br></br><br></br>
+          <img src={AhojSolutionsImage} alt="Ahoj Solutions Image" width="500" height="500" />
+          <br></br>
+          <i>Ahoj Solutions</i>
         </Fragment>
       }
     />
