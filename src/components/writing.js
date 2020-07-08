@@ -41,7 +41,7 @@ const Writing = () => {
         <Fragment>
           <Big>AHOJ</Big>
           <p>
-            <i>The Digital Money Work for Everyone.</i>
+            <i>The Digital Money Works for Everyone.</i>
           </p>
           <p>
           AHOJ offers a complete technology stack for the management of cryptocurrencies and tokens ensuring the best-fit balance for security and liquidity.
