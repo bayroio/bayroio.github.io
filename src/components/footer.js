@@ -1,10 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import media from 'utils/media-queries'
-
-import { fontSize } from 'styles/theme'
-
+import { color, fontSize } from 'styles/theme'
 import SectionFooter from 'components/SectionFooter'
+import BayroLogo from 'img/bayrologo-nobackground.png'
 
 const FooterText = styled.div`
   text-align: right;
@@ -25,16 +24,40 @@ const SloganFooterText = styled.div`
   text-align: left;
   font-size: ${fontSize.f5};
 `
+const LogoWrapper = styled.div`
+  padding: 24px 0 24px 24px;
+  ${media.sm`
+    padding: ${(props) => (props.article ? '24px 0 24px 24px' : '24px 0 0 0')};
+  `};
+  ${media.xs`
+    padding: 24px 0 0 0;
+  `}
+`
+const NameLink = styled.a`
+  text-decoration: none;
+`
+const Role = styled.div`
+  color: ${color.grey700};
+  text-align: left;
+  line-height: 1.4;
+  font-size: ${fontSize.f4};
+  ${media.sm`
+    text-align: center;
+    font-size: ${fontSize.f6};
+  `};
+`
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <SectionFooter>
-      <BayroFooterText>
-        <b>bayro</b>
-      </BayroFooterText>
-      <SloganFooterText>
-      An interface between Blockchain and Financial Services.
-      </SloganFooterText>
+      <LogoWrapper article={props.article}>
+        {!props.article && (
+          <NameLink href="/">
+            <img src={BayroLogo} alt="Bayro Logo" width="150" height="45" />
+          </NameLink>
+        )}
+        {!props.article && <Role>An interface between Blockchain and Financial Services.</Role>}
+      </LogoWrapper>
       <br></br>
       <FooterText>
         The code used in this page is open source, check it out on&nbsp;

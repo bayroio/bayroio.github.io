@@ -2,9 +2,8 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import media from 'utils/media-queries'
 import { color, fontSize } from 'styles/theme'
-import ClientWithLogo from 'components/clientwithlogo'
+//import ClientWithLogo from 'components/clientwithlogo'
 import BayroLogo from 'img/bayrologo-nobackground.png'
-
 import Icon from 'components/icons'
 
 const Div = styled.div`
@@ -169,13 +168,11 @@ const Header = (props) => {
   return (
     <Div article={props.article}>
       <LogoWrapper article={props.article}>
-        {props.article && (
+        {!props.article && (
           <NameLink href="/">
-            <img src={BayroLogo} width="100" height="100" />
-            <NameArticle article={props.article}>bayro</NameArticle>
+            <img src={BayroLogo} alt="Bayro Logo" width="300" height="90" />
           </NameLink>
         )}
-        {!props.article && <Name article={props.article}>bayro</Name>}
         {!props.article && <Role>An interface between Blockchain and Financial Services.</Role>}
       </LogoWrapper>
       <div>
