@@ -33,7 +33,7 @@ const Footer = () => {
         <b>bayro</b>
       </BayroFooterText>
       <SloganFooterText>
-        The starting point for digital assets.
+      An interface between Blockchain and Financial Services.
       </SloganFooterText>
       <br></br>
       <FooterText>

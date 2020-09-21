@@ -30,13 +30,10 @@ const About = () => {
       rightColumn={
         <Fragment>
           <Big>
-          Bayro is the trusted technology partner for companies entering the digital assets ecosystem.
+          Bayro is building an interface between Blockchain and Financial Services that enables the issuance and trading of financial instruments using synthetic assets.
           </Big>
           <p>
-          Always helping to companies with the opportunities and challenges of the Blockchain technologies by offering avant garde solutions and professional  services in the field of distributed ledgers, cryptocurrencies, digital money and assets.
-          </p>
-          <p>
-          We believe in emerging technology and its significant advantages for our clients.
+          Reach new levels of massive investment through decentralized finance, where individual investors, fintech companies, traditional financial firms or technological giants are attracted so that they themselves can issue new financial products and trade it... This is our mission!
           </p>
         </Fragment>
       }

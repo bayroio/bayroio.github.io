@@ -21,12 +21,6 @@ const App = () => {
       <Section>
         <Writing />
       </Section>
-      <Section id={'projects'}>
-        <Work />
-      </Section>
-      <Section>
-        <Clients />
-      </Section>
       <Footer />
     </GlobalWrapper>
   )

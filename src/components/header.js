@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import media from 'utils/media-queries'
 import { color, fontSize } from 'styles/theme'
+import ClientWithLogo from 'components/clientwithlogo'
+import BayroLogo from 'img/bayrologo-nobackground.png'
 
 import Icon from 'components/icons'
 
@@ -169,16 +171,17 @@ const Header = (props) => {
       <LogoWrapper article={props.article}>
         {props.article && (
           <NameLink href="/">
+            <img src={BayroLogo} width="100" height="100" />
             <NameArticle article={props.article}>bayro</NameArticle>
           </NameLink>
         )}
         {!props.article && <Name article={props.article}>bayro</Name>}
-        {!props.article && <Role>The starting point for digital assets.</Role>}
+        {!props.article && <Role>An interface between Blockchain and Financial Services.</Role>}
       </LogoWrapper>
       <div>
         <SocialLinks article={props.article}>
           <SocialLink
-            href={`mailto:hola@bayro.io`}
+            href={`mailto:hello@bayro.io`}
             target="blank"
             onMouseOver={() => showTooltip('Mail')}
             onFocus={() => showTooltip('Mail')}
@@ -208,13 +211,13 @@ const Header = (props) => {
             </SvgWrapper>
           </SocialLink>
           <SocialLink
-            href="https://ahoj.network"
+            href="https://ahoj.finance"
             target="blank"
-            onMouseOver={() => showTooltip('Ahoj Network')}
-            onFocus={() => showTooltip('Ahoj Network')}
+            onMouseOver={() => showTooltip('Ahoj.Finace')}
+            onFocus={() => showTooltip('Ahoj.Finace')}
             onMouseLeave={hideTooltip}
             onBlur={hideTooltip}
-            aria-label="Go to Ahoj Network"
+            aria-label="Go to Ahoj.Finace"
           >
             <SvgWrapper>
               <InlineSvg>
