@@ -208,7 +208,7 @@ const Header = (props) => {
             </SvgWrapper>
           </SocialLink>
           <SocialLink
-            href="https://ahoj.finance"
+            href="http://www.ahoj.finance"
             target="blank"
             onMouseOver={() => showTooltip('Ahoj.Finace')}
             onFocus={() => showTooltip('Ahoj.Finace')}
