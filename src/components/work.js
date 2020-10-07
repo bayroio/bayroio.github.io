@@ -24,24 +24,19 @@ const Work = () => {
       rightColumn={
         <Fragment>
           <ProjectNoLogo
-            title="Strategy Blockchain Advisory"
-            abstract="Gain insight into business model prototyping, use case discovery, market analysis, and proofs-of-concept to develop comprehensive strategies for blockchain adoption."
+            title="Blockchain Consulting"
+            abstract="We can do prototyping, discovery, and proofs-of-concept to help you with the definition of strategies when your company is thinking about a blockchain adoption."
             link={LifeTimeLink}
-          />
-          <ProjectNoLogo
-            title="Due Diligence Advisory"
-            abstract="We can advise you in your merger and acquisition process, providing a technical, financial and regulatory evaluation of the technology company to be acquired."
-            link={PalettteLink}
-          />
-          <ProjectNoLogo
-            title="Regulation Advisory"
-            abstract="When you decide to adopt our solutions to shape your new business model, we can advise you on regulatory issues."
-            link={KellerkindLink}
           />
           <ProjectNoLogo
             title="Financial + Cryptocurrency Advisory"
             abstract="You need to know the present and future financial impact of your company in the new era, you need to understand or define a token or its impact on the market, we can advise you."
             link={BamLink}
+          />
+          <ProjectNoLogo
+            title="Blockchain Solutions Development"
+            abstract="We integrate blockchain technology in your business, and help you build new solutions leveraging blockchain."
+            link={PalettteLink}
           />
         </Fragment>
       }
