@@ -39,34 +39,35 @@ const Writing = () => {
       leftColumn={<SectionHeading>Products</SectionHeading>}
       rightColumn={
         <Fragment>
-          <Big>AHOJ Finance Network</Big>
+          <Big>AHOJ Finance</Big>
           <p>
-            <i>The avant-garde DeFi protocol for derivatives supported by synthetics.</i>
-          </p>
-          <p>
-          Ahoj Finance Network is a decentralized protocol, where new financial instruments or their combination are issued and traded, through the use of synthetic assets that represent any cryptocurrency, existing financial instrument or real world asset and it runs on a 3rd generation Blockchain.
+          It is a cutting-edge DeFi protocol that allows the issuance and trading of financial instruments using synthetic assets, and for that we are implementing the financial concept of "Total Return Swap".
+         
           </p>
           <br></br>
           <ProjectNoLogo
-            title="Ahoj.Swap"
-            abstract="A simple way to trade one asset for another."
+            title="Ahoj.Token"
+            abstract="Is a Synthetic Commodity Money to be used as a stablecoin within the protocol, and among other things that can be used as collateral / guarantee at the time of minting a synthetic in the protocol."
+            
             link={LifeTimeLink}
           />
           <ProjectNoLogo
-            title="Ahoj.Mint"
-            abstract="This is the right way to define economics/financial rules to create new ASA (AHOJ Synthetic Assets)."
+            title="Ahoj.Mix"
+            abstract="Automated liquidity protocol powered by a constant product formula. It's composed by Ahoj.Jars: Liquidity Provider Protocol /Automated Market Maker and Ahoj.Swap: Trade one asset for another. "
+            link={LifeTimeLink}
+          />
+
+          <ProjectNoLogo
+            title="Ahoj.Synth"
+            abstract="A service for creating economic or financial rules to mint new ASA (Ahoj Synthetic Assets)."
             link={LifeTimeLink}
           />
           <ProjectNoLogo
-            title="Ahoj.Invest"
-            abstract="A service to trade all minted ASA."
+            title="Ahoj.Dash"
+            abstract="Dashboard with all financial informaction concerning $AHOJ & ASA market cap."
             link={LifeTimeLink}
           />
-          <ProjectNoLogo
-            title="Ahoj.Dashboard"
-            abstract="If you want check all the financial information around our synthetic market... this is the right place."
-            link={LifeTimeLink}
-          />
+         
         </Fragment>
       }
     />

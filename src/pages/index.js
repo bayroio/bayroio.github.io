@@ -21,9 +21,6 @@ const App = () => {
       <Section>
         <Writing />
       </Section>
-      <Section>
-        <Work />
-      </Section>
       <Footer />
     </GlobalWrapper>
   )
