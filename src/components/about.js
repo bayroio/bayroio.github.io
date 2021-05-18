@@ -30,10 +30,13 @@ const About = () => {
       rightColumn={
         <Fragment>
           <Big>
-          Bayro is building an interface between Blockchain and Financial Services that enables the issuance and trading of financial instruments using synthetic assets.
+          Get Blockchain Platforms and DApps Developed Right.
           </Big>
           <p>
-          Reach new levels of massive investment through decentralized finance, where individual investors, fintech companies, traditional financial firms or technological giants are attracted so that they themselves can issue new financial products and trade it... This is our mission!
+          Bayro is a team of engineers, which helps decentralized protocols and developer platforms to accelerate growth of their ecosystems. By delivering hands-on coding and contributions, Bayro specializes in supercharging developer adoption and network usage. Reach out to Bayro for brainstorming, and our team will help you to ship applications, elaborate smart contracts, robust developer tools (SDKs/APIs/sample apps), or simply improve performance/cost of oracles. Bayro works exclusively with entrepreneurs who are builders of decentralized infrastructure protocols, applications, and ecosystems.
+          </p>
+          <p>
+            <i>Need a free consultation on your project?</i>
           </p>
         </Fragment>
       }

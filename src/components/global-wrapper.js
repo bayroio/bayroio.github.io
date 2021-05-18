@@ -22,7 +22,7 @@ const GlobalWrapper = (props) => {
       <Helmet>
         <html lang="en" />
         <title>bayro</title>
-        <meta name="description" content="bayro - The starting point for digital asset." />
+        <meta name="description" content="Bayro - Smart Contracts, Protocol Engineering and Developer Tools." />
         <meta
           name="keywords"
           content="Bayro, DEFI, Blockchain, Ethereum, Crypto, Cryptocurrencies, DLT, Token, DEX, Payment, Brokerage, Wallet"
@@ -31,7 +31,7 @@ const GlobalWrapper = (props) => {
           property="og:image"
           content="https://www.gabrieladorf.com/static/kellerkindCover-14f87246d1614ff1cf339940bdc58186.jpg"
         />
-        <meta property="og:description" content="bayro - The starting point for digital asset." />
+        <meta property="og:description" content="Bayro - Smart Contracts, Protocol Engineering and Developer Tools." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://bayro.io" />
         <meta property="og:title" content="bayro" />

@@ -29,13 +29,28 @@ const Work = () => {
             link={LifeTimeLink}
           />
           <ProjectNoLogo
-            title="Financial + Cryptocurrency Advisory"
-            abstract="You need to know the present and future financial impact of your company in the new era, you need to understand or define a token or its impact on the market, we can advise you."
+            title="Smart Contracts"
+            abstract="Smart contracts development + Peer review + Assessment of architecture + Functionality, performance and security audit + Secure, multi-signature capable CI/CD pipelines."
             link={BamLink}
           />
           <ProjectNoLogo
-            title="Blockchain Solutions Development"
-            abstract="We integrate blockchain technology in your business, and help you build new solutions leveraging blockchain."
+            title="Decentralized applications"
+            abstract="Complete dApp development life cycle, from ideation, prototyping, MVP to deployment and maintenance + UX/UI design and implementation + Web/Mobile + Token Generation."
+            link={PalettteLink}
+          />
+          <ProjectNoLogo
+            title="Developer tools"
+            abstract="SDKs + APIs + Protocols/platform starters projects + Web/mobile app components + Bots."
+            link={PalettteLink}
+          />
+          <ProjectNoLogo
+            title="Integrations"
+            abstract="Trusted data feeds (oracles) + dApps seamlessly integration to other dApps and protocols + Stable Coins."
+            link={PalettteLink}
+          />
+          <ProjectNoLogo
+            title="Automation in the Cloud"
+            abstract="Create images to run the network nodes locally as well for production grade deployment to most popular cloud providers + One-click-deploy tools + Network monitor. Dashboard. Notifications + Performance testing and benchmarking."
             link={PalettteLink}
           />
         </Fragment>

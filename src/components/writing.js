@@ -36,35 +36,22 @@ const Writing = () => {
   return (
     <TwoColumns
       wide
-      leftColumn={<SectionHeading>Products</SectionHeading>}
+      leftColumn={<SectionHeading>Why Bayro?</SectionHeading>}
       rightColumn={
         <Fragment>
-          <Big>AHOJ Finance Network</Big>
+          <Big>Experienced and cross-functional teams</Big>
           <p>
-            <i>The avant-garde DeFi protocol for derivatives supported by synthetics.</i>
-          </p>
-          <p>
-          Ahoj Finance Network is a decentralized protocol, where new financial instruments or their combination are issued and traded, through the use of synthetic assets that represent any cryptocurrency, existing financial instrument or real world asset and it runs on a 3rd generation Blockchain.
+          Experienced and cross-functional teams. Protofire can help you to build a turnkey team of experts in business analysis, architecture design, development, DevOps, QA engineering, UI/UX design, etc. We know how to keep the team inspired, motivated, and result-oriented. The size and composition of the team is stipulated for each project and can scaled up/down on demand.
           </p>
           <br></br>
           <ProjectNoLogo
-            title="Ahoj.Swap"
-            abstract="A simple way to trade one asset for another."
+            title="Providing value for customers is our guiding principle"
+            abstract="Cherishing our reputation, we are very careful about our partnerships and collaborations. Protofire’s goal is to reach out to those customers with a history of contributions, driving a project to serve a developer community, and aiming at delivering a social impact."
             link={LifeTimeLink}
           />
           <ProjectNoLogo
-            title="Ahoj.Mint"
-            abstract="This is the right way to define economics/financial rules to create new ASA (AHOJ Synthetic Assets)."
-            link={LifeTimeLink}
-          />
-          <ProjectNoLogo
-            title="Ahoj.Invest"
-            abstract="A service to trade all minted ASA."
-            link={LifeTimeLink}
-          />
-          <ProjectNoLogo
-            title="Ahoj.Dashboard"
-            abstract="If you want check all the financial information around our synthetic market... this is the right place."
+            title="Always up to date on the latest blockchain trends"
+            abstract="We are great enthusiasts and active contributors to open-source blockchain communities, hosting and participating in meetups globally. All the code we produce is open-source compliant with such best practices as code review, code quality, security analysis, automated tests, coverage, semantic versioning, and extensive documentation."
             link={LifeTimeLink}
           />
         </Fragment>

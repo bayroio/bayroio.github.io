@@ -56,7 +56,7 @@ const Footer = (props) => {
             <img src={BayroLogo} alt="Bayro Logo" width="150" height="45" />
           </NameLink>
         )}
-        {!props.article && <Role>An interface between Blockchain and Financial Services.</Role>}
+        {!props.article && <Role>Smart Contracts, Protocol Engineering and Developer Tools (SDKs/APIs)</Role>}
       </LogoWrapper>
       <br></br>
       <FooterText>
