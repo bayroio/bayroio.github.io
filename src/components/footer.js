@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import media from 'utils/media-queries'
 import { color, fontSize } from 'styles/theme'
-import SectionFooter from 'components/SectionFooter'
+import SectionFooter from 'components/sectionFooter'
 import BayroLogo from 'img/bayrologo-nobackground.png'
 
 const FooterText = styled.div`

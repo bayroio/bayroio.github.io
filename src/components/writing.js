@@ -51,9 +51,8 @@ const Writing = () => {
           />
           <ProjectNoLogo
             title="Always up to date on the latest blockchain trends"
-            abstract="We are great enthusiasts and active contributors to open-source blockchain communities, hosting and participating in meetups globally. All the code we produce is open-source compliant with such best practices as code review, code quality, security analysis, automated tests, coverage, semantic versioning, and extensive documentation."
-            link={LifeTimeLink}
-          />
+            abstract="We are great enthusiasts and active contributors to open-source blockchain communities, hosting and participating in meetups globally. All the code we produce is open-source compliant with such best practices as code review, code quality, security analysis, automated tests, coverage, semantic versioning, and extensive documentation." 
+            />        
         </Fragment>
       }
     />
