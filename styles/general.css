@@ -1,0 +1,17 @@
+/* General Styles for Bayro Site */
+
+/*Layout & Typography*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "public sans", sans-serif;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  h1 {
+    font-size: 54px;
+  }  
