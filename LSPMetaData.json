@@ -1,6 +1,6 @@
 {
-  name: "DTT",
-  description: "Dirección de Transferencia Tecnológica",
+  'name': 'DTT',
+  'description': 'Dirección de Transferencia Tecnológica',
   profileImage: [
     {
       width: 722,
@@ -19,11 +19,11 @@
       url: 'QmeBKhfrF7dyEY9cfBnE2sHANqQ4kq6Z1pShLHLv73cJdS',
     },
   ],
-  tags: ['Web3', 'ZK Proof', 'Token Engineering', 'IP-NFT', 'AI'],
-  links: [
+  'tags': ['Web3', 'ZK Proof', 'Token Engineering', 'IP-NFT', 'AI'],
+  'links': [
     {
-      title: "My Websites",
-      url: "https://linktr.ee/eherrador",
+      'title': 'My Websites',
+      'url': 'https://linktr.ee/eherrador',
     },
   ],
 }
