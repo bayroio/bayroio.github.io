@@ -1,3 +1,3 @@
-# BayroID Web Site
-http://www.bayro.id
+# Bayro Web Site
+http://www.bayro.io
 
